@@ -75,3 +75,4 @@ Este exemplo irá exibir uma notificação com o texto `"Mensagem de Teste"` que
 3. **Som**: O som será tocado quando a notificação for exibida, caso o parâmetro `sound` seja especificado.
 4. **Imagem**: A notificação pode exibir um ícone, se o caminho para a imagem for fornecido no parâmetro `icon`.
 
+![image](https://github.com/user-attachments/assets/44b2fe29-f0e4-4153-b561-8ab680456188)
