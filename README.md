@@ -1,7 +1,3 @@
-# py-tk-windows-notify-
-Sistema de notificação parar Windows e outros sistemas que rodam tk py
-
-
 
 # Sistema de Notificações TK com Pygame
 
@@ -22,15 +18,17 @@ Para usar este sistema de notificações, você precisa ter o Python instalado n
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/usuario/repositorio.git
-   cd repositorio
+   git clone https://github.com/Valdemir-DSW/py-tk-windows-notify.git
+   cd py-tk-windows-notify
    ```
 
 2. Instale as dependências necessárias:
 
    ```bash
-   pip install pygame pillow
+   pip install -r requirements.txt
    ```
+
+   Para obter mais detalhes sobre as dependências, consulte o arquivo [requirements.txt](https://github.com/Valdemir-DSW/py-tk-windows-notify/blob/main/requirements.txt).
 
 3. Agora você pode executar o script para usar o sistema de notificações. 
 
@@ -76,8 +74,4 @@ Este exemplo irá exibir uma notificação com o texto `"Mensagem de Teste"` que
 2. **Fechamento**: Se o usuário clicar nos primeiros 30px horizontais da janela da notificação, ela será fechada automaticamente.
 3. **Som**: O som será tocado quando a notificação for exibida, caso o parâmetro `sound` seja especificado.
 4. **Imagem**: A notificação pode exibir um ícone, se o caminho para a imagem for fornecido no parâmetro `icon`.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
